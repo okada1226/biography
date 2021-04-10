@@ -1,0 +1,526 @@
+header {
+  width: 1475px;
+  margin:0 auto;
+  height: 110px;
+  background: white;
+  padding: 0px 0px;
+  font-family:"Roboto"
+}
+
+a {
+  text-decoration: none;
+  border: none;
+  color: black;
+}
+
+.header-logo p {
+  padding-top: 32px;
+  float:left;
+  padding-left: 0px;
+  font-size: 21px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.br-sp {
+  display:none;
+}
+
+span {
+  color: #a9a9a9;
+}
+
+body {
+  font-family: "helvetica-lighter", "YuGothic-lighter";
+}
+
+.header-list {
+  padding-top:39px;
+}
+
+.contact, .biography, .work {
+    padding-top: 3.5px;
+    font-size: 15px;
+    color: #a9a9a9;
+    list-style: none;
+    float: right;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: :#C0C0C0;
+}
+
+.slash1, .slash2 {
+  font-size: 20px;
+  list-style: none;
+  float: right;
+  padding-right:10px;
+  padding-left:10px;
+  font-weight: 300;
+}
+
+
+.contact:hover {
+  opacity: 0.35;
+}
+
+
+.biography:hover {
+  opacity: 0.35;
+}
+
+.work {
+  float:right;
+}
+
+.work:hover {
+  opacity: 0.35;
+}
+
+.drawer {
+  display: none;
+}
+
+
+.image1 {
+text-align:center;
+}
+.image1 img {
+  width:1475px;
+}
+
+.image2 {
+text-align:center;
+padding-top: 25px;
+
+}
+.image2 img {
+  width:1475px;
+}
+
+.image3 {
+text-align:center;
+padding-top: 25px;
+
+}
+.image3 img {
+  width:1475px;
+}
+
+.image4 {
+text-align:center;
+padding-top: 25px;
+}
+.image4 img {
+  width:1475px;
+}
+
+.image5 {
+text-align:center;
+padding-top: 25px;
+}
+.image5 img {
+  width:1475px;
+}
+
+.image6 {
+text-align:center;
+padding-top: 25px;
+}
+.image6 img {
+  width:1475px;
+}
+
+.image7 {
+text-align:center;
+padding-top: 20px;
+}
+.image7 img {
+  width:1475px;
+}
+
+.image8 {
+text-align:center;
+padding-top: 20px;
+}
+.image8 img {
+  width:1475px;
+}
+
+
+.br-sp {
+  display: none;
+}
+
+
+.sakuhin-text {
+  padding-top:37px;
+  margin:0 auto;
+  width:1475px;
+}
+
+.title {
+  font-size:16px;
+  letter-spacing: 1.5px;
+  line-height: 0px;
+  font-weight: normal;
+  margin:0;
+}
+
+.detail {
+  padding-top: 3px;
+  font-size:14.5px;
+  line-height: 26.8px;
+  letter-spacing: 1.3px;
+
+}
+
+
+
+.back {
+  font-family:"Roboto";
+  font-weight: 500;
+  padding-top:90px;
+  padding-left:0px;
+  text-align: center;
+  font-size:15px;
+  padding-bottom:80px;
+}
+
+@media only screen and (max-width:1475px) {
+  header {
+    width: 1100px;
+    margin:0 auto;
+    height: 110px;
+    background: white;
+    padding: 0px 0px;
+    box-sizing: border-box;
+    }
+    .image1 img {
+      width:1100px;
+    }
+  .image2 img {
+      width:1100px;
+    }
+  .image3 img {
+      width:1100px;
+    }
+  .image4 img {
+      width:1100px;
+    }
+  .image5 img {
+      width:1100px;
+    }
+  .image6 img {
+      width:1100px;
+    }
+  .image7 img {
+      width:1100px;
+    }
+  .image8 img {
+      width:1100px;
+    }
+    .sakuhin-text {
+      width:1100px;
+    }
+    .sakuhin-text {
+      width:1100px;
+    }
+
+
+}
+
+@media only screen and (max-width:1100px) {
+  header {
+    width: 725px;
+    margin:0 auto;
+    height: 110px;
+    background: white;
+    padding: 0px 0px;
+    box-sizing: border-box;
+    }
+    .image1 img {
+      width:725px;
+    }
+  .image2 img {
+      width:725px;
+    }
+  .image3 img {
+      width:725px;
+    }
+  .image4 img {
+      width:725px;
+    }
+  .image5 img {
+      width:725px;
+    }
+  .image6 img {
+      width:725px;
+    }
+  .image7 img {
+      width:725px;
+    }
+  .image8 img {
+      width:725px;
+    }
+    .sakuhin-text {
+      width:725px;
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 400px){
+  header {
+    width: 320px;
+    margin:0 auto;
+    height: 70px;
+    padding: 0px 0px;
+    }
+
+.header-logo {
+  padding-top: 0;
+}
+
+    .header-logo p {
+      padding-top: 18px;
+      line-height: 0px;
+      font-size: 18px;
+      letter-spacing: 0.5px;
+      font-weight: 500;
+      float:left;
+      padding-bottom: 0px;
+      margin: 0px;
+
+    }
+
+.header-logo p::first-line {
+  line-height: 40px;
+}
+
+
+
+
+      .header-logo span {
+        line-height: 0px;
+        float:none;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+
+      }
+
+      .br-sp {
+        display:block;
+      }
+
+
+
+      .header-list {
+        display: none;
+      }
+
+
+   /*------------------------------
+
+     ここから下がハンバーガーメニュー
+     に関するCSS
+
+   ------------------------------*/
+.drawer{
+  display: block;
+  margin: 0;
+}
+   /* チェックボックスは非表示に */
+   .drawer-hidden {
+     display: none;
+   }
+
+   /* ハンバーガーアイコンの設置スペース */
+   .drawer-open {
+     display: flex;
+     float:right;
+     padding-top: 41.5px;
+     height: 60px;
+     width: 26px;
+     justify-content: center;
+     position: relative;
+     z-index: 98;/* 重なり順を一番下に */
+     cursor: pointer;
+   }
+
+   /* ハンバーガーメニューのアイコン */
+   .drawer-open span,
+   .drawer-open span:before,
+   .drawer-open span:after {
+     content: '';
+     display: block;
+     height: 3px;
+     width: 25px;
+     border-radius: 3px;
+     background: #808080;
+     transition: 0.5s;
+     position: absolute;
+   }
+
+   /* 三本線のうち一番上の棒の位置調整 */
+   .drawer-open span:before {
+     bottom: 10px;
+   }
+
+   /* 三本線のうち一番下の棒の位置調整 */
+   .drawer-open span:after {
+     top: 10px;
+   }
+   /* アイコンがクリックされたら真ん中の線を透明にする */
+   #drawer-check:checked ~ .drawer-open span {
+     background: rgba(255, 255, 255, 0);
+   }
+
+   /* アイコンがクリックされたらアイコンが×印になように上下の線を回転 */
+   #drawer-check:checked ~ .drawer-open span::before {
+     bottom: 0;
+     transform: rotate(45deg);
+   }#drawer-check:checked ~ .drawer-open span::after {
+  top: 0;
+  transform: rotate(-45deg);
+}
+   /* メニューのデザイン*/
+   .drawer-content {
+     width: 100%;/* ここの割合を小さくすると閉じる部分の領域が広がる */
+     height: 100%;
+     position: fixed;
+     top: 0;
+     left: 100%;/* メニューを画面外へ */
+     background: #fff;
+     transition: .5s;
+   }
+
+   /* アイコンがクリックされたらメニューを表示 */
+   #drawer-check:checked ~ .drawer-content {
+     left: 0;/* メニューを画面内へ */
+   }
+
+   /* メニューを閉じるための要素のデザイン*/
+   .drawer-close {
+     width: 100%;
+     height: 100%;
+     background: red;
+    position: relative;
+     left: 100%;/* 閉じるための要素を画面外へ */
+     z-index: 99;/* 重なり順をメニューより下に*/
+     transition: .5s;
+   }
+
+   #drawer-check:checked ~ .drawer-close {
+     left: 0;/* 閉じるための要素を画面内へ */
+   }
+
+.drawer-list {
+  position: absolute;
+  margin: 0;
+  padding-left: 35px;
+  padding-top:35px;
+  list-style: none;
+  font-family: "Roboto";
+  font-weight: 500;
+  line-height: 55px;
+  font-size:30px;
+  letter-spacing: 1px;
+  bottom: 0;
+  padding-bottom: 40px;
+}
+
+
+
+
+
+  .image1 img {
+      width:100%;
+    }
+
+   .image2 {
+    padding-top: 13px;
+    }
+  .image2 img {
+      width:100%;
+    }
+
+     .image3 {
+    padding-top: 13px;
+    }
+  .image3 img {
+      width:100%;
+    }
+
+     .image4 {
+    padding-top: 13px;
+    }
+  .image4 img {
+      width:100%;
+    }
+
+     .image5 {
+    padding-top: 13px;
+    }
+  .image5 img {
+      width:100%;
+    }
+
+     .image6 {
+    padding-top: 13px;
+    }
+  .image6 img {
+      width:100%;
+    }
+
+     .image7 {
+    padding-top: 13px;
+    }
+  .image7 img {
+      width:100%;
+    }
+
+     .image8 {
+    padding-top: 13px;
+    }
+  .image8 img {
+      width:100%;
+    }
+
+
+  .sakuhin-text {
+      padding-top:30px;
+      width:320px;
+    }
+
+    .title {
+      font-size:17px;
+      margin-bottom: 0;
+      padding-bottom: 0;
+      line-height: 0px;
+    }
+
+
+  .detail {
+      margin-top:12.5px;
+      margin-bottom: :20px;
+      text-align: justify;
+      text-justify: inter-ideograph;
+      line-height:25px;
+
+    }
+    .br-pc {
+      display: none;
+    }
+  .back {
+  padding-top:50px;
+  padding-left:0px;
+  text-align: center;
+  font-size:15px;
+  padding-bottom:70px;
+  font-weight:500;
+}
+
+
+}
