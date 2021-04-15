@@ -33,7 +33,7 @@ span {
 }
 
 body {
-  font-family: "helvetica", "YuGothic";
+  font-family: "helvetica", "YuGothic", "sans-serif";
   position:  relative;
   z-index: 0;
 }
@@ -83,58 +83,52 @@ body {
   display: none;
 }
 
-
 .texts {
   padding-top:10px;
   width: 1475px;
   margin:0 auto;
   font-size:14.5px;
   letter-spacing: 1px;
-  line-height: 24px;
+  line-height: 27px;
+  padding-bottom: 100px;
 }
-
+.br-sp {
+  display: none;
+}
+.lead {
+  line-height: 25px;
+}
 .text1 {
-  padding-bottom: 20px;
-}
-.midashi {
-  line-height: 12px;
-}
-.keireki {
-  line-height: 18px;
+  line-height: 27px;
   padding-bottom: 20px;
 }
 
+.keireki {
+  line-height: 23px;
+  padding-bottom: 20px;
+}
+.midashi1 {
+  line-height: 16px;
+}
 .keireki2  {
   text-indent: -3.5em;
   padding-left: 3.5em;
 }
-.keireki2::first-line{
-  line-height: 25px;
-}
-
 .keireki3  {
   text-indent: -3.5em;
   padding-left: 3.5em;
 }
-.keireki3::first-line{
-  line-height: 25px;
-}
-
 .keireki4  {
   text-indent: -3.5em;
   padding-left: 3.5em;
 }
 
-.keireki4::first-line{
-  line-height: 25px;
-}
-
 
 .midashi2 {
-  line-height: 12px;
+  line-height: 16px;
 }
 .jyusyou {
-  line-height: 16px;
+  line-height: 23px;
 }
 
 
@@ -415,6 +409,13 @@ width:320px;
 transition: 0.5s ;
 }
 .texts {
+  padding-top: 0px;
   width:320px;
   }
+  .br-sp {
+    display: block;
+  }
+.br-pc{
+  display: none;
+}
 }
