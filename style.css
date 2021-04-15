@@ -35,6 +35,7 @@ span {
 body {
   font-family: "helvetica", "YuGothic", "sans-serif";
   position:  relative;
+  font-weight: normal;
   z-index: 0;
 }
 
@@ -111,16 +112,16 @@ body {
   line-height: 16px;
 }
 .keireki2  {
-  text-indent: -3.5em;
-  padding-left: 3.5em;
+  text-indent: -3.6em;
+  padding-left: 3.6em;
 }
 .keireki3  {
-  text-indent: -3.5em;
-  padding-left: 3.5em;
+  text-indent: -3.6em;
+  padding-left: 3.6em;
 }
 .keireki4  {
-  text-indent: -3.5em;
-  padding-left: 3.5em;
+  text-indent: -3.6em;
+  padding-left: 3.6em;
 }
 
 
