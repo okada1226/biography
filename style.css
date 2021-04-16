@@ -391,4 +391,13 @@ body {
 .br-pc{
   display: none;
 }
+
+@media (orientation: landscape) and (max-width: 767px){
+  header {
+    width: 650px;
+    }
+  .texts {
+      width:650px;
+    }
+
 }
